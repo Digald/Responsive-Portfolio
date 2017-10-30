@@ -1,118 +1,126 @@
-html, body {
-	height: 100%;
-	width: 100%;
+html,
+body {
+    height: 100%;
+    width: 100%;
 }
 
 body {
-	background-image: url(../images/tree_bark.png);
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-	line-height: 2;
-	position: relative;
+    background-image: url(../images/tree_bark.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2;
+    position: relative;
 }
+
 .wrapper {
-	padding-bottom: 40px;
+    padding-bottom: 40px;
 }
+
 
 /*
 ======
 HEADER
 ======
 */
+
 header {
-	position: relative;
-	height: 100px;
-	width: 100%;
-	border-bottom: 2px solid #cccccc;
-	background-color: #ffffff;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h1 {
-	display: inline;
-	float: left;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	font-size: 25px;
-	margin: 0 0 0 160px;
-	padding: 25px 30px 25px 30px;
+    display: inline;
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 0 0 160px;
+    padding: 25px 30px 25px 30px;
 }
 
 nav {
-	position: absolute;
-	margin: 30px 0 0 0;
-	width: 45%;
-	float: right;
-	right: 0;
-
+    position: absolute;
+    margin: 30px 0 0 0;
+    width: 45%;
+    float: right;
+    right: 0;
 }
 
 header a {
-	text-decoration: none;
-	color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 
 nav ul li {
-	display: inline;
-	padding: 0 10px 0 10px;
-	font-size: 20px;
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
 }
+
 
 /*
 =======
 CONTENT
 =======
 */
+
 .content {
-	margin-top: 40px;
-	position: relative;
+    margin-top: 40px;
+    position: relative;
 }
 
 article {
-	position: relative;
-	float: left;
-	margin: 0 0 40px 160px;
-	background-color: #ffffff;
-	width: 650px;
-
+    position: relative;
+    float: left;
+    margin: 0 0 40px 160px;
+    background-color: #ffffff;
+    width: 650px;
 }
+
 aside {
-	position: relative;
-	display: inline;
-	background-color: #ffffff;
-	float: left;
-	margin: 0 0 0 5%;
-	width: 270px;
+    position: relative;
+    display: inline;
+    background-color: #ffffff;
+    float: left;
+    margin: 0 0 0 5%;
+    width: 270px;
 }
 
 hr {
-	margin: 0 30px 0 30px;
+    margin: 0 30px 0 30px;
 }
+
 
 /*
 ========
 ABOUT ME
 ========
 */
+
 article h2 {
-	color: #4aaaa5;
-	font-weight: bold;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 30px;
-	margin: 25px 0 25px 30px;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    margin: 25px 0 25px 30px;
 }
 
 section {
-	margin: 30px 30px 35px 30px;
+    margin: 30px 30px 35px 30px;
 }
 
 section img {
-	float: left;
-	padding: 0 25px 20px 0;
-	width: 300px;
-	height: 300px;
+    float: left;
+    padding: 0 25px 20px 0;
+    width: 300px;
+    height: 300px;
 }
+
 
 /*
 ===============
@@ -121,32 +129,35 @@ CONNECT WITH ME
 */
 
 aside h2 {
-	color: #4aaaa5;
-	font-weight: bold;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 24px;
-	margin: 15px 0 15px 30px;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    margin: 15px 0 15px 30px;
 }
 
 aside ul {
-	text-align: center;
-	margin: 25px 0 40px 0;
+    text-align: center;
+    margin: 25px 0 40px 0;
 }
 
 aside ul li {
-	display: inline;
+    display: inline;
 }
 
 .fa-github-square {
-	color: #333;
+    color: #333;
 }
+
 .fa-linkedin-square {
-	color: #0077B5;
-	padding: 0 10px 0 10px;
+    color: #0077B5;
+    padding: 0 10px 0 10px;
 }
+
 .fa-stack-overflow {
-	color: orange;
+    color: orange;
 }
+
 
 /*
 ======
@@ -155,167 +166,168 @@ FOOTER
 */
 
 footer {
-	display: block;
-	bottom: 0;
-	width: 100%;
-	padding-top: 42px;
-	border-top: 10px solid #4aaaa5;
-	height: 90px;
-	background-color: #666666;
-	clear: both;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    padding-top: 42px;
+    border-top: 10px solid #4aaaa5;
+    height: 90px;
+    background-color: #666666;
+    clear: both;
 }
 
 .footer {
-	color: #ffffff;
-	text-align: center;
-	font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
 }
+
+
 /*
 =============
 MEDIA QUERIES
 =============
 */
+
 @media only screen and (max-width: 980px) {
-	/*Page Wide CSS*/
-	.wrapper {
-		width: 980px;
-	}
-	.content {
-		width: 74.48%;
-		margin: 40px auto;
-	}
-	/*Header CSS*/
-	header {
-		height: 90px;
-		width: 100%;
-	}
+    /*Page Wide CSS*/
+    .wrapper {
+        width: 980px;
+    }
+    .content {
+        width: 74.48%;
+        margin: 40px auto;
+    }
+    /*Header CSS*/
+    header {
+        height: 90px;
+        width: 100%;
+    }
 
-	header h1 {
-		padding: 20px 30px 20px 30px;
-		margin: 0 10%;
-		width: 15%
-	}
+    header h1 {
+        padding: 20px 30px 20px 30px;
+        margin: 0 10%;
+        width: 15%
+    }
 
-	nav {
-		position: absolute;
-		float: right;
-		right: 0;
-		width: 40%;
-		margin: 20px 0;
+    nav {
+        position: absolute;
+        float: right;
+        right: 0;
+        width: 40%;
+        margin: 20px 0;
+    }
 
-	}
+    /*Main Content CSS*/
+    article {
+        margin: 0;
+        width: 57.53%;
+        float: left;
+        margin-bottom: 40px;
+    }
 
-	/*Main Content CSS*/
-
-	article {
-		margin: 0;
-		width: 57.53%;
-		float: left;
-		margin-bottom: 40px;
-	}
-
-	aside {
-		margin: 0;
-		float: right;
-	}
+    aside {
+        margin: 0;
+        float: right;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-	/*Page Wide CSS*/
-	.wrapper {
-		width: 786px;
-	}
-	.content {
-		width: 95%;
-		margin: 40px auto;
-	}
+    /*Page Wide CSS*/
+    .wrapper {
+        width: 786px;
+    }
+    .content {
+        width: 95%;
+        margin: 40px auto;
+    }
 
-	/*Header CSS*/
-	header h1 {
-		padding: 20px 35px 20px 35px;
-		margin: 0 5%;
-		width: 19%
-	}
-	nav {
-		position: absolute;
-		float: right;
-		right: 0;
-		width: 60%;
-		margin: 20px 0;
+    /*Header CSS*/
+    header h1 {
+        padding: 20px 35px 20px 35px;
+        margin: 0 5%;
+        width: 19%
+    }
+    nav {
+        position: absolute;
+        float: right;
+        right: 0;
+        width: 60%;
+        margin: 20px 0;
+    }
 
-	}
+    /*Main Content CSS*/
+    article {
+        margin: 0;
+        width: 95%;
+        margin-bottom: 40px;
+    }
 
-	/*Main Content CSS*/
-	article {
-		margin: 0;
-		width: 95%;
-		margin-bottom: 40px;
-	}
+    aside {
+        margin-bottom: 40px;
+        width: 95%;
+        float: left;
+    }
 
-	aside  {
-		margin-bottom: 40px;
-		width: 95%;
-		float: left;
-	}
-
-	aside ul {
-		float: left;
-		padding-left: 5%;
-	}
+    aside ul {
+        float: left;
+        padding-left: 5%;
+    }
 }
 
 @media only screen and (max-width: 640px) {
-	/*Page Wide CSS*/
-	.wrapper {
-		width: 640px;
-	}
-	.content {
-		width: 95%;
-		margin: 40px auto;
-	}
+    /*Page Wide CSS*/
+    .wrapper {
+        width: 640px;
+    }
+    .content {
+        width: 95%;
+        margin: 40px auto;
+    }
 
-	/*Header CSS*/
-	header {
-	position: static;
-	height: 200px;
-	width: 100%;
-	border-bottom: 2px solid #cccccc;
-	background-color: #ffffff;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-}
+    /*Header CSS*/
+    header {
+        position: static;
+        height: 200px;
+        width: 100%;
+        border-bottom: 2px solid #cccccc;
+        background-color: #ffffff;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
 
 
-header h1 {
-	display: block;
-	position: absolute;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	font-size: 25px;
-	text-align: center;
-	width: 100%;
-	border: 2px solid black;
-	margin: 0;
-	
-}
+    header h1 {
+        display: block;
+        position: absolute;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        /*border: 2px solid black;*/
+        margin: 0;
+    }
 
-nav {
-	display: block;
-	position: relative;
-	width: 50%
-	/*border: 2px solid orange;*/
+    header nav {
+        display: block;
+        position: absolute;
+        float: left;
+        left: 0;
+        margin: 130px auto;
+        /*width: 20%*/
+        /*border: 2px solid orange;*/
+    }
 
-}
+    nav ul {
+        text-align: center;
+        display: block;
+        /*border: 2px solid black;*/
+    }
 
-nav ul {
-	text-align: center;
-	display: block;
-	border: 2px solid black;
-}
-
-nav ul li {
-	display: inline;
-	padding: 0 10px 0 10px;
-	font-size: 20px;
-}
-	
+    nav ul li {
+        display: inline;
+        padding: 0 10px 0 10px;
+        font-size: 20px;
+    }
 }

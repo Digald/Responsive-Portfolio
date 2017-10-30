@@ -41,8 +41,9 @@ h1 {
 nav {
 	position: absolute;
 	margin: 30px 0 0 0;
-	float: left;
-	left: 900px;
+	width: 45%;
+	float: right;
+	right: 0;
 
 }
 
@@ -190,4 +191,152 @@ footer {
 	color: #ffffff;
 	text-align: center;
 	font-size: 15px;
+}
+/*
+=============
+MEDIA QUERIES
+=============
+*/
+
+@media only screen and (max-width: 980px) {
+    /*Page Wide CSS*/
+    .wrapper {
+        width: 980px;
+    }
+    .content {
+        width: 74.48%;
+        margin: 40px auto;
+    }
+    /*Header CSS*/
+    header {
+        height: 90px;
+        width: 100%;
+    }
+
+    header h1 {
+        padding: 20px 30px 20px 30px;
+        margin: 0 10%;
+        width: 15%
+    }
+
+    nav {
+        position: absolute;
+        float: right;
+        right: 0;
+        width: 40%;
+        margin: 20px 0;
+    }
+
+    /*Main Content CSS*/
+    article {
+        margin: 0;
+        width: 57.53%;
+        float: left;
+        margin-bottom: 40px;
+    }
+
+    aside {
+        margin: 0;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /*Page Wide CSS*/
+    .wrapper {
+        width: 786px;
+    }
+    .content {
+        width: 95%;
+        margin: 40px auto;
+    }
+
+    /*Header CSS*/
+    header h1 {
+        padding: 20px 35px 20px 35px;
+        margin: 0 5%;
+        width: 19%
+    }
+    nav {
+        position: absolute;
+        float: right;
+        right: 0;
+        width: 60%;
+        margin: 20px 0;
+    }
+
+    /*Main Content CSS*/
+    article {
+        margin: 0;
+        width: 95%;
+        margin-bottom: 40px;
+    }
+
+    aside {
+        margin-bottom: 40px;
+        width: 95%;
+        float: left;
+    }
+
+    aside ul {
+        float: left;
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    /*Page Wide CSS*/
+    .wrapper {
+        width: 640px;
+    }
+    .content {
+        width: 95%;
+        margin: 40px auto;
+    }
+
+    /*Header CSS*/
+    header {
+        position: static;
+        height: 200px;
+        width: 100%;
+        border-bottom: 2px solid #cccccc;
+        background-color: #ffffff;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+
+    header h1 {
+        display: block;
+        position: absolute;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        /*border: 2px solid black;*/
+        margin: 0;
+    }
+
+    header nav {
+        display: block;
+        position: absolute;
+        float: left;
+        left: 0;
+        margin: 130px auto;
+        /*width: 20%*/
+        /*border: 2px solid orange;*/
+    }
+
+    nav ul {
+        text-align: center;
+        display: block;
+        /*border: 2px solid black;*/
+    }
+
+    nav ul li {
+        display: inline;
+        padding: 0 10px 0 10px;
+        font-size: 20px;
+    }
 }
