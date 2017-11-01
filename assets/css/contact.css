@@ -20,30 +20,30 @@ HEADER
 ======
 */
 header {
-	position: relative;
+	/*position: relative;*/
 	height: 100px;
-	width: 100%;
+	/*width: 100%;*/
 	border-bottom: 2px solid #cccccc;
 	background-color: #ffffff;
-	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h1 {
-	display: inline;
+	/*display: inline;*/
 	float: left;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	font-size: 25px;
 	margin: 0 0 0 160px;
 	padding: 25px 30px 25px 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 nav {
-	position: absolute;
+	/*position: absolute;*/
 	margin: 30px 0 0 0;
 	width: 45%;
 	float: right;
-	right: 0;
+	/*right: 0;*/
 
 }
 
@@ -66,7 +66,7 @@ CONTENT
 */
 .content {
 	margin-top: 40px;
-	position: relative;
+	/*position: relative;*/
 }
 
 article {
@@ -78,8 +78,8 @@ article {
 
 }
 aside {
-	position: relative;
-	display: inline;
+	/*position: relative;*/
+	/*display: inline;*/
 	background-color: #ffffff;
 	float: left;
 	margin: 0 0 0 5%;
@@ -177,9 +177,9 @@ FOOTER
 */
 
 footer {
-	display: block;
-	bottom: 0;
-	width: 100%;
+	/*display: block;*/
+	/*bottom: 0;*/
+	/*width: 100%;*/
 	padding-top: 42px;
 	border-top: 10px solid #4aaaa5;
 	height: 90px;
@@ -244,7 +244,7 @@ MEDIA QUERIES
 @media only screen and (max-width: 768px) {
     /*Page Wide CSS*/
     .wrapper {
-        width: 786px;
+        width: 768px;
     }
     .content {
         width: 95%;
